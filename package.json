@@ -1,0 +1,19 @@
+{
+  "name": "aws-sqs-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "processor.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ricelli Carvalho",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1310.0",
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
+    "request": "^2.88.2"
+  }
+}
